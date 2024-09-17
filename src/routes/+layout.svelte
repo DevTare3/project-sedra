@@ -4,7 +4,7 @@
 </script>
 
 <header>
-  <nav class="px-7 py-6 flex justify-between items-center">
+  <nav class="lg:px-12 lg:py-6 flex justify-between items-center px-4 py-3">
     <div class="">Sedra</div>
     <ul>
       <Button href="/" variant="link" class="px-2 py-2 text-base"
@@ -13,11 +13,12 @@
       <Button href="/contact" variant="link" class="px-2 py-2 text-base"
         >Kontakt</Button
       >
-      <Button href="/location" variant="link" class="px-4 py-2 text-base"
+      <Button variant="link" href="/location" class="px-2 py-2 text-base"
         >Lokacija</Button
       >
     </ul>
   </nav>
 </header>
-
-<slot></slot>
+<main>
+  <slot></slot>
+</main>
