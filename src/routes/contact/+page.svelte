@@ -8,11 +8,9 @@
     <Card.Header>
       <Card.Title>Kontakt Informacije</Card.Title>
     </Card.Header>
-    <Card.Content
-      class="flex flex-row-reverse gap-2 items-center text-left pr-16 "
-    >
+    <Card.Content class="flex gap-2 items-center p-4 ">
       <Phone fill="#333"></Phone>
-      <p class="">
+      <p class="text-left">
         Pozovite nas na: <a
           class="hover:text-red-500 transition-all"
           href="tel:+38761069798">061 069 798</a
