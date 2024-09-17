@@ -40,7 +40,7 @@
     current = api.selectedScrollSnap() + 1;
 
     api.on("select", () => {
-      current = api.selectedScrollSnap() + 1;
+      current++;
     });
   }
 </script>
