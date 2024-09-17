@@ -40,7 +40,7 @@
     current = api.selectedScrollSnap() + 1;
 
     api.on("select", () => {
-      current = api.selectedScrollSnap() + 1;
+      current++;
     });
   }
 </script>
@@ -55,9 +55,9 @@
     <img class="min-w-[4rem] min-h-[4rem]" src={image.src} alt={image.alt} />
   {/each}
 </div>
-<div>
-  <h1 class="text-4xl text-center mb-8">Nasi radovi</h1>
-  <div class="flex justify-center items-center">
+<div class="p-12 w-full flex flex-col items-center justify-center">
+  <h1 class="text-4xl text-center mb-8 mt-4">Nasi radovi</h1>
+  <div class="flex justify-center items-center flex-col">
     <Carousel.Root
       class="w-full max-w-xl"
       bind:api
@@ -69,7 +69,7 @@
         {#each examplesOfWork as work}
           <Carousel.Item>
             <Card.Root>
-              <Card.Content class="aspect-square">
+              <Card.Content class="aspect-square p-0">
                 <img
                   class="w-full aspect-square"
                   src={work.src}
