@@ -8,7 +8,7 @@
     <Card.Header>
       <Card.Title>Kontakt Informacije</Card.Title>
     </Card.Header>
-    <Card.Content class="flex gap-2 items-center p-4 ">
+    <Card.Content class="flex gap-2 items-center  ">
       <Phone fill="#333"></Phone>
       <p class="text-left">
         Pozovite nas na: <a
