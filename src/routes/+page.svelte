@@ -46,12 +46,12 @@
 </script>
 
 <div class="bg-orange-400 py-20">
-  <h1 class="text-2xl text-center py-10 px-8 text-wrap">
+  <h1 class="text-2xl lg:text-4xl md:text-3xl text-center py-10 px-8 text-wrap">
     Sedra za sve vase gradevinske potvrde
   </h1>
 </div>
 <div class="bg-black text-white py-4 text-center text-base">
-  <p>Brendovi sa kojim radimo!</p>
+  <p class="text-base md:text-lg">Brendovi sa kojim radimo!</p>
   <div class="flex justify-center align-center gap-8 flex-wrap py-8 px-16">
     {#each images as image}
       <img class=" max-w-20" src={image.src} alt={image.alt} />
