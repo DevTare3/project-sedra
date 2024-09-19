@@ -3,7 +3,7 @@
   import { Phone } from "lucide-svelte";
 </script>
 
-<main>
+<main class="px-4">
   <Card.Root class="max-w-2xl mx-auto">
     <Card.Header>
       <Card.Title>Kontakt Informacije</Card.Title>

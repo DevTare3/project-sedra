@@ -52,7 +52,7 @@
 </div>
 <div class="flex justify-center align-center gap-4 bg-black py-8 px-16">
   {#each images as image}
-    <img class="min-w-[4rem] min-h-[4rem]" src={image.src} alt={image.alt} />
+    <img class=" w-16 sm:w-20 md:w-32" src={image.src} alt={image.alt} />
   {/each}
 </div>
 <div class="p-12 w-full flex flex-col items-center justify-center">
