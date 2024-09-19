@@ -1,7 +1,6 @@
 <script lang="ts">
-  export const prerender = true;
   import { Button } from "$lib/components/ui/button";
-  import {base} form "$app/paths";
+  import {base} from "$app/paths";
   import "../app.css";
 </script>
 
