@@ -50,10 +50,15 @@
     Sedra za sve vase gradevinske potvrde
   </h1>
 </div>
-<div class="flex justify-center align-center gap-4 bg-black py-8 px-16">
-  {#each images as image}
-    <img class=" w-16 sm:w-20 md:w-32" src={image.src} alt={image.alt} />
-  {/each}
+<div
+  class="text-base text-white text-center sm:text-lg lg:text-2xl md:text-xl bg-black py-4"
+>
+  <p>Brendovi sa kojima radimo</p>
+  <div class="flex justify-center align-center gap-4 bg-black py-8 px-16">
+    {#each images as image}
+      <img class=" w-16 sm:w-20 md:w-32" src={image.src} alt={image.alt} />
+    {/each}
+  </div>
 </div>
 <div class="p-12 w-full flex flex-col items-center justify-center">
   <h1 class="text-4xl text-center mb-8 mt-4">Nasi radovi</h1>
