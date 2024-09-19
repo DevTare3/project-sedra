@@ -45,8 +45,8 @@
   }
 </script>
 
-<div class="bg-orange-400 py-20">
-  <h1 class="text-5xl text-center py-10 px-4">
+<div class="bg-blue-500 py-20 min-h-[70vh]">
+  <h1 class=" text-2xl lg:text-5xl text-center py-10 px-4 text-white">
     Sedra za sve vase gradevinske potvrde
   </h1>
 </div>
