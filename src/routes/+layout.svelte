@@ -1,6 +1,7 @@
 <script lang="ts">
   export const prerender = true;
   import { Button } from "$lib/components/ui/button";
+  import {base} form "$app/paths";
   import "../app.css";
 </script>
 
@@ -10,13 +11,13 @@
       <img src="/sedra-logo.svg" alt="the logo of the company" />
     </div>
     <ul>
-      <Button href="/" variant="link" class="px-2 py-2 text-base"
+      <Button href="{base}" variant="link" class="px-2 py-2 text-base"
         >Pocetna</Button
       >
-      <Button href="/contact" variant="link" class="px-2 py-2 text-base"
+      <Button href="{base}/contact" variant="link" class="px-2 py-2 text-base"
         >Kontakt</Button
       >
-      <Button variant="link" href="/location" class="px-2 py-2 text-base"
+      <Button variant="link" href="{base}/location" class="px-2 py-2 text-base"
         >Lokacija</Button
       >
     </ul>
