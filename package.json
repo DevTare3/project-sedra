@@ -10,7 +10,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "test:integration": "playwright test",
-    "deploy": "npm build && pnpx gh-pages -d build -t true",
+    "deploy": "npx gp-pages -d dist",
     "test:unit": "vitest"
   },
   "devDependencies": {
