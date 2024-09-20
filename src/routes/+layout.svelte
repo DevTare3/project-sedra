@@ -1,5 +1,7 @@
 <script lang="ts">
   import { Button } from "$lib/components/ui/button";
+  import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
+  injectSpeedInsights();
   import "../app.css";
 </script>
 
